@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+    
+    <header class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.svg" alt="Company Logo" style="height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tour Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero d-flex align-items-center" style="background-image: url('./Hero Page/hero_bg.png');">
+        <div class="container text-center">
+            <h1 class="text-white">Enjoy in the best way!</h1>
+            <p class="text-white">Enjoy our services for your trip anytime</p>
+
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-2">
+                    <select class="form-select">
+                        <option selected>Number of people</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <input type="time" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <select class="form-select">
+                        <option selected>Tour</option>
+                        <option>City Tour</option>
+                        <option>Mountain Tour</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-select">
+                        <option selected>Transportation</option>
+                        <option>Bus</option>
+                        <option>Car</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-warning">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+    <section class="popular-destinations">
+        <h2>Explore Our Popular Destinations</h2>
+        <div class="destination-card-container">
+            <div class="destination-card">
+                <img src="./Hero Page/popular_dest/popular_dest_1.svg" alt="Destination 1">
+                <p>Lucca Bike Tour</p>
+                <span>from 34 €</span>
+            </div>
+            <div class="destination-card">
+                <img src="./Hero Page/popular_dest/popular_dest_2.svg" alt="Destination 2">
+                <p>Wine Tasting in Tuscany</p>
+                <span>from 34 €</span>
+            </div>
+            <div class="destination-card">
+                <img src="./Hero Page/popular_dest/popular_dest_3.svg" alt="Destination 3">
+                <p>Cinque Terre Tour</p>
+                <span>from 34 €</span>
+            </div>
+            <div class="destination-card">
+                <img src="./Hero Page/popular_dest/popular_dest_4.svg" alt="Destination 4">
+                <p>Siena and Surroundings</p>
+                <span>from 34 €</span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="company-overview">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="./Hero Page/best_company/best_company01.svg" alt="Company Overview Image" class="img-fluid overview-image">
+                </div>
+                <div class="col-md-6">
+                    <h2>Company Overview</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+                    <p>Proin eget tortor risus. Donec rutrum congue leo eget malesuada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="special-offers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="text-card">
+                        <h2>Get Special Offers for Organizations</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+                        <p>Proin eget tortor risus. Donec rutrum congue leo eget malesuada.</p>
+                        <a href="#" class="contact-btn">Contact Us</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 position-relative">
+                    <div class="image-wrapper">
+                        <img src="./Hero Page/special_offers/special_offers01.svg" alt="Special Offers Image" class="img-fluid overview-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="book-bike">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Book Now Bike</h2>
+                    <form>
+                        <input type="text" placeholder="Name and Surname" class="form-control mb-3">
+                        <input type="email" placeholder="Email Address" class="form-control mb-3">
+                        <input type="text" placeholder="Telephone Number" class="form-control mb-3">
+                        <input type="date" placeholder="Date" class="form-control mb-3">
+                        <select class="form-control mb-3">
+                            <option value="">Service Type</option>
+                        
+                        </select>
+                        <button type="submit" class="btn btn-primary">Book Now</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Hero Page/book_a_bike/bike picture.png" alt="Bike Image" class="img-fluid book-bike-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5">The Most Popular Packages</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow-sm h-100">
+                    <img src="./Hero Page/popular_package/pop_package01.svg" alt="Rickshaw" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">BIKE / RICKSHAW</h5>
+                        <h3 class="text-warning">€10 <small class="text-muted">/day</small></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-calendar-check"></i> Your bike for a day</li>
+                            <li><i class="bi bi-app"></i> City App</li>
+                            <li><i class="bi bi-tag-fill"></i> Discount on Rickshaw</li>
+                            <li><i class="bi bi-headset"></i> Guaranteed Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-warning w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card shadow-sm h-100">
+                    <img src="./Hero Page/popular_package/pop_package02.svg" alt="Bike Tours" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">BIKE TOURS</h5>
+                        <h3 class="text-warning">€30 <small class="text-muted">/day</small></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-bicycle"></i> A Mountain Bike Included</li>
+                            <li><i class="bi bi-person-fill"></i> A Guide For You</li>
+                            <li><i class="bi bi-droplet-half"></i> Bottle of water</li>
+                            <li><i class="bi bi-headset"></i> Guaranteed Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-warning w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow-sm h-100">
+                    <img src="./Hero Page/popular_package/pop_package03.svg" alt="Bus Trips" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">BUS TRIPS</h5>
+                        <h3 class="text-warning">€45 <small class="text-muted">/day</small></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-ticket"></i> Park ticket</li>
+                            <li><i class="bi bi-bus-front"></i> Return bus</li>
+                            <li><i class="bi bi-people-fill"></i> Companion</li>
+                            <li><i class="bi bi-headset"></i> Guaranteed Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-warning w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card shadow-sm h-100">
+                    <img src="./Hero Page/popular_package/pop_package04.svg" alt="Transfer" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">TRANSFER</h5>
+                        <h3 class="text-warning">€10 <small class="text-muted">/day</small></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-person-badge"></i> Personal Driver</li>
+                            <li><i class="bi bi-geo-alt-fill"></i> Wherever You Want</li>
+                            <li><i class="bi bi-currency-euro"></i> At the best price</li>
+                            <li><i class="bi bi-headset"></i> Guaranteed Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-warning w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <section class="customer-reviews">
+        <h2>Happy Customers Says</h2>
+        <div class="reviews-carousel">
+          <div class="review">
+            <div class="quote">
+              <p>
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure."
+              </p>
+              <h4>Lyod Gomez</h4>
+            </div>
+          </div>
+          <div class="review">
+            <div class="quote">
+              <p>
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure."
+              </p>
+              <h4>Lyod Gomez</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <span class="prev">&lt;</span>
+          <span class="next">&gt;</span>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section services">
+            <h4>Services</h4>
+            <ul>
+              <li>Bike and Rickshaw rental</li>
+              <li>Guided Tours of Lucca</li>
+              <li>Guided Bike Tour of Lucca</li>
+              <li>Trip In The Tuscan Hills</li>
+              <li>Transportation With Luxury Cars</li>
+              <li>Wine Tours By Bus With Guide</li>
+            </ul>
+          </div>
+          
+          <div class="footer-section home">
+            <h4>Home</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Tour Packages</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section help">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact">
+            <h4>Contacts</h4>
+            <ul>
+              <li>Piazza Napoleone, Lucca, Tuscany</li>
+              <li>+39 346 368 5708</li>
+              <li><a href="mailto:italialimino@gmail.com">italialimino@gmail.com</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section social">
+            <h4>Social Media</h4>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2022. All rights reserved.</p>
+        </div>
+      </footer>      
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
